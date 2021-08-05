@@ -1,0 +1,26 @@
+{
+  "name": "test-ethsigner",
+  "version": "1.0.0",
+  "description": "Package to test the Eth Signer Functionality with Hyperledger Besu",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "keywords": [
+    "EthSigner",
+    "Hyperledger",
+    "Besu"
+  ],
+  "author": "Sukrut S. Sathaye",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "fs": "^0.0.1-security",
+    "web3": "^1.5.0"
+  }
+}
